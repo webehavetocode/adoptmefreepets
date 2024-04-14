@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form - Adopt Me Free Pet</title>
+    <style>
+        body {
+            background-color: #F0F8FF; /* Soft blue background */
+            font-family: Arial, sans-serif; /* Changed font to sans-serif */
+        }
+        .login-container {
+            background-image: url('path/to/kiddie-pattern.png'); /* A playful pattern or image */
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: auto;
+            width: 90%;
+            max-width: 400px;
+        }
+        .button-hover:hover {
+            background-color: #ff66cc; /* Brighter pink when hovered */
+            transform: scale(1.05); /* Slight increase in size */
+        }
+        .color-palette span:hover {
+            transform: rotate(20deg); /* Rotates the color circles */
+            transition: transform 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <header style="background-color: #ff00ff; padding: 20px; text-align: center; border-radius: 10px;">
+            <h1 class="site-title" style="font-size: 3em; color: #ffffff;">Adopt Me Free Pet</h1>
+        </header>
+        <h2 style="text-align: center; color: #ff00ff;">Login</h2>
+        <form id="loginForm" style="margin-bottom: 20px; text-align: center;">
+            <div class="input-group" style="margin-bottom: 10px;">
+                <label for="username" style="display: block; font-weight: bold; color: #ff00ff;">Username:</label>
+                <input type="text" id="username" name="username" required style="padding: 10px; border: 2px solid #ff00ff; border-radius: 5px;">
+            </div>
+            <div class="input-group" style="margin-bottom: 10px;">
+                <label for="password" style="display: block; font-weight: bold; color: #ff00ff;">Password:</label>
+                <input type="password" id="password" name="password" required style="padding: 10px; border: 2px solid #ff00ff; border-radius: 5px;">
+            </div>
+            <button type="submit" class="button-hover" style="background-color: #ff00ff; color: #ffffff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Login</button>
+        </form>
+        <div class="promo-section" style="text-align: center; color: #ff00ff;">
+            <p style="margin-bottom: 20px;">Check out the latest events and get your free pet in Adopt Me!</p>
+            <div class="color-palette">
+                <span class="color" style="background-color: #00a2ff; display: inline-block; width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;"></span>
+                <span class="color" style="background-color: #ff4f00; display: inline-block; width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;"></span>
+                <span class="color" style="background-color: #ffac33; display: inline-block; width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;"></span>
+                <span class="color" style="background-color: #00ff00; display: inline-block; width: 50px; height: 50px; border-radius: 50%;"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
